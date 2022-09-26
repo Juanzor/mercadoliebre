@@ -367,4 +367,12 @@ footer i:hover {
     header a {
         padding: 1vh;
     }
+
+    .compra-cuotas span{
+        font-size: 14px;
+    }
+
+    .container-nav-site-login{
+        font-size: 14px;
+    }
 }

@@ -5,16 +5,69 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
     <link rel="stylesheet" href="/css/register.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/bda3cd9edc.js" crossorigin="anonymous"></script>
-    <link rel="shortcut icon" href="https://http2.mlstatic.com/frontend-assets/ui-navigation/5.19.5/mercadolibre/favicon.svg">
-    <title>Document</title>
+    <link rel="shortcut icon"
+        href="https://http2.mlstatic.com/frontend-assets/ui-navigation/5.19.5/mercadolibre/favicon.svg">
+    <title>Login</title>
 </head>
 
 <body>
-    <main>
 
+    <header>
+        <div class="container-header">
+
+            <div class="container-nav-bar">
+                <div class="container-logo-search">
+                    <img class="logo" src="/img/logo-mercado-liebre.svg" alt="MercadoLiebre">
+                    <form action="/" method="GET">
+                        <div class="nav-search-bar">
+                            <input type="text" id="text" name="search" placeholder="Buscar productos, marcas">
+                            <button type="submit" class="button-search">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+                <div class="compra-cuotas">
+                    <i class="fa-solid fa-hand-holding-dollar"></i>
+                    <span>Comprá en cuotas y sin tarjeta de crédito </span>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="container-nav-site-login">
+            <nav class="nav-site-bar">
+                <a href="">Ofertas</a>
+                <a href="">Tiendas Oficiales</a>
+                <a href="">Vender</a>
+                <a href="">Ayuda</a>
+            </nav>
+
+            <nav class="nav-login-bar">
+                <a href="/register">Creá tu cuenta <i class="fa-solid fa-id-card"></i> </a>
+                <a href="/login">Ingresá <i class="fas fa-sign-in-alt"></i></a>
+                <a href="">Mis compras <i class="fas fa-shopping-basket"></i></a>
+            </nav>
+        </div>
+
+
+        <div class="container-burger">
+            <div class="burger">
+                <div class="burger-menu">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </div>
+        </div>
+    </header> 
+
+
+    <main>
         <div class="login form">
             <form action="../" method="GET">
 
@@ -25,7 +78,8 @@
                 <input class="submit login" type="submit">
 
             </form>
-
+        </div>
+    </main>
 </body>
 
 </html>
